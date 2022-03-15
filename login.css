@@ -1,0 +1,182 @@
+html,
+body {
+  font-family: "Noto Sans SC", sans-serif;
+  height: 100%;
+  letter-spacing: -0.4px;
+}
+
+a {
+  text-decoration: none;
+  color: #725efe;
+}
+
+a:hover {
+  color: #725efe;
+}
+
+.text-center {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  min-height: 100%;
+  background-color: rgb(250, 250, 250);
+}
+
+.page-content {
+  display: flex;
+  width: 100%;
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+}
+
+.form-signin {
+  display: flex;
+  flex: 1 0 auto;
+  margin: 0 auto;
+  max-width: 300px;
+  padding: 40px 0;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: 10px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.logo {
+  font-size: 27px;
+  margin-bottom: 30px;
+  user-select: none;
+  -webkit-user-select: none;
+  font-weight: 400;
+}
+
+.logo a {
+  font-weight: bolder;
+  font-size: 27px;
+  color: #000;
+  text-shadow: 0px 0px 10px #735efe49;
+}
+
+.logo a:hover {
+  color: #563df8;
+}
+
+.btn-primary {
+  background-color: #725efe;
+  border-color: #725efe;
+}
+
+.btn-primary:hover {
+  background-color: #563df8;
+  border-color: #725efe;
+}
+
+.form-floating {
+  width: 300px;
+}
+
+.form-floating > .form-control,
+.form-floating > .form-select {
+  height: 50px;
+}
+
+.form-floating > label {
+  top: -2;
+  opacity: 0.5;
+  font-size: 14px;
+}
+
+.form-control:focus {
+  border-color: #735efe49;
+  box-shadow: 0px 0px 10px #735efe49;
+}
+
+#floatingInput {
+  border-radius: 50px;
+}
+
+#floatingPassword {
+  border-radius: 50px;
+}
+
+.w-100 {
+  margin: 20px 0px;
+  font-size: 17px;
+  padding: 12px 16px;
+  border-radius: 50px;
+  box-shadow: 0px 0px 10px #735efebd;
+}
+
+.login-regist {
+  font-size: 14px;
+  color: #424242;
+}
+
+.forget-pw {
+  margin-left: 20px;
+}
+
+.login-info {
+  font-size: 12px;
+  margin: 35px 0 15px;
+  color: #757575;
+}
+
+input[type="checkbox" i] {
+  position: relative;
+  top: 2px;
+}
+
+.login-info a {
+  color: #424242;
+}
+
+.login-info a:hover {
+  color: #725efe;
+}
+
+.login-link {
+  margin: 0 10px;
+  -webkit-transition: 0.1s opacity;
+  transition: 0.1s opacity;
+  user-select: none;
+}
+
+.login-link:hover {
+  opacity: 0.6;
+}
+
+.footer-text {
+  font-size: 10px;
+  width: 100%;
+  color: rgb(117, 117, 117);
+  font-size: 10px;
+  line-height: 20px;
+  margin: -5px 0px 25px;
+  text-align: center;
+}
+
+.footer-text a {
+  color: #757575;
+}
+
+.footer-text a:hover {
+  text-decoration: underline;
+}
